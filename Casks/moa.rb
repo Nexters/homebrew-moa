@@ -1,14 +1,14 @@
 cask "moa" do
-  version "0.8.2"
+  version "0.9.0"
 
   on_arm do
     url "https://github.com/nexters/moa/releases/download/v#{version}/moa_#{version}_aarch64.dmg"
-    sha256 "14a81187cb001451134d01381abd4a0eb53a0477a04dc8fd3cd37614e00279b7"
+    sha256 "cf9186eb027f161f9a0e40b4f800e59ea2a75ade06866d8d37a3ce4566fd59f9"
   end
 
   on_intel do
     url "https://github.com/nexters/moa/releases/download/v#{version}/moa_#{version}_x64.dmg"
-    sha256 "2f8c96ee4d40c0b1045ef24b2f01e0a71b37ce130db348e9943e8e0080f2bcb6"
+    sha256 "e61b91025b56521931e6dbf038c397510797bf7cbd07d4bceca74540e986d7eb"
   end
 
   name "Moa"
